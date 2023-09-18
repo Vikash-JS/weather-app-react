@@ -1,0 +1,27 @@
+.orange {
+  background-color: rgb(235, 111, 76);
+  border-color: rgb(235, 111, 76);
+}
+.searchbar {
+  max-width: 600px;
+}
+.toggle-deg-btn {
+  max-width: 400px;
+}
+
+@media (min-width: 768px) {
+  .weather-description {
+    border-bottom: none !important;
+  }
+}
+@media (max-width: 768px) {
+  .day-header {
+    border-bottom: none !important;
+  }
+}
+img {
+  height: 100%;
+}
+.weather-img {
+  max-width: 75px;
+}
